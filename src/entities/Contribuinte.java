@@ -31,4 +31,8 @@ public abstract class Contribuinte {
 
 	public abstract double calcImposto();
 
+	public String toString() {
+		return "NOME: " + nome + " - IMPOSTO: R$" + calcImposto();
+	}
+	
 }
